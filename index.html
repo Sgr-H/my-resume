@@ -71,25 +71,49 @@
         <h2>个人信息</h2>
         <p><strong>姓名：</strong>黄佳军</p>
         <p><strong>联系电话：</strong>18115771056</p>
-        <p><strong>职业：</strong>嵌入式开发</p>
+        <p><strong>职业：</strong>嵌入式单片机/Linux+Qt/驱动开发/C++开发</p>
         <p><strong>学历：</strong>全日制本科</p>
       </section>
       <section class="experience">
-        <h2>工作经历</h2>
-        <p>1. Linux + Qt 网关</p>
-        <p>2. 单片机网关</p>
-        <p>3. 温湿度传感器</p>
-        <p>4. 压力传感器</p>
-        <p>5. 液位传感器</p>
+        <h2>掌握技能</h2>
+        <p>1. 熟练使用Keil，IAR，HT-IDE3000，VMware，QtCreator，嘉立创EDA，AD，STM32CubeMX，VSCode</p>
+        <p>2. 熟练掌握C/C++语言，熟悉java，python，熟悉Linux环境，shell命令，git项目管理，略懂汇编语言</p>
+        <p>3. 熟悉Modbus通信协议，lora通信，Tcp网络协议</p>
+        <p>4. 熟悉常见的MCU，如STM32F103VCT6，STM8LR8T6，STM32F103ZET6，F407VGT6，IMX6ull，
+          熟悉国产的MCU，如中颖SH86F7088，健芳simFC50F2468，飞凌OKT507</p>
       </section>
-      <!-- 添加视频 -->
+      <!-- 项目视频简介 -->
       <section class="video">
-        <h2>演示视频</h2>
+        <h2>Linux+Qt演示视频</h2>
         <video controls width="600">
-          <source src="realtime_demo.mp4" type="video/mp4">
+          <source src="SmartGateWay_2_2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-        <p>本视频展示了嵌入式系统在处理实时数据时的性能和效率。通过传感器网关和单片机技术的结合，我们能够高效地收集和分析环境数据，适用于各种工业和智能家居应用。</p>
+        <p>
+          本视频展示了Linux+Qt智能网关的效果，主要用于工业仪器仪表的数据采集。
+        </p>
+        </p>Linux+Qt敏捷网关与上位机通讯协议的设计，包括通讯数据包，JSON数据包，反馈数据包的结构组成，以及功能码和操作码的定义，详细的每一项具体指令的应答过程
+        </p>
+        </p>
+        硬件方面的调试，使用飞凌T507的核心板，底板增加了7个串口，移植了一个CH9344芯片的驱动到内核使得1路USB转4个串口，解决了屏幕触摸旋转的问题，更改设备树的节点，取消掉某些不必要的功能，测试各项基础功能，编译成最终版本镜像，整理出一份测试报告。
+        </p>
+        </p>软件方面，使用Linux+Qt开发，搭建交叉编译环境，远程部署调试功能，网络编程，串口编程，多线程编程，界面开发等。开发任务均由我完成，测试配合上位机开发人员。</p>
+      </section>
+      <section class="video">
+        <h2>无线窖池测温杆演示视频</h2>
+        <video controls width="600">
+          <source src="meterTemp.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>本视频展示了无线窖池测温杆的效果，主要用于酒厂酿酒的温度采集上报，基于IAR在STM8LR8T6开发无线温度表。特点：无线Lora通信，快速精确采集，低功耗策略，PT100。</p>
+      </section>
+      <section class="video">
+        <h2>无线网关演示视频</h2>
+        <video controls width="600">
+          <source src="F1GateWay.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>本视频展示了无线网关的效果，主要用于收到终端温度的上报数据，基于Keil在STM32F103VCT6开发的无线通信网关。特点：无线Lora通信，dtu网络通信，配合终端采集数据，上报在线平台。</p>
       </section>
     </div>
   </div>
